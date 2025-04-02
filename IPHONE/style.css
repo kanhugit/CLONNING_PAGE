@@ -1,0 +1,356 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.nav1 {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+a {
+  text-decoration: none;
+  color: rgb(66, 64, 64);
+  font-size: 15px;
+}
+a:hover {
+  color: black;
+}
+span {
+  font-size: 10px;
+  color: red;
+}
+.nav2 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav2 > a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#main-div1,
+#sec-div1 {
+  /* border: 2px solid green; */
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-div1 > h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+}
+#main-div1 > p {
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#main-div2 {
+  height: 700px;
+  margin-left: 70px;
+  margin-right: 70px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+#main-div3 {
+  margin-left: 70px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(35, 34, 34);
+}
+#main-div4 {
+  /* border: 2px solid brown; */
+  height: 800px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#main-div4 > div > img {
+  border-radius: 30px;
+  height: 670px;
+  width: 360px;
+}
+.para {
+  position: relative;
+  width: 360px;
+}
+.card {
+  /* border: 2px solid purple; */
+  position: absolute;
+  width: 360px;
+  top: 40px;
+  color: white;
+  padding-left: 25px;
+
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.para:hover {
+  width: 375px;
+  height: 685px;
+  cursor: pointer;
+  transition: all 2s;
+}
+section {
+  height: 3400px;
+  /* border: 2px solid red; */
+}
+
+#sec-div1 h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+#sec-div1 a,
+.sec-div4 a {
+  font-size: 20px;
+  color: blue;
+}
+#sec-div1 a:hover,
+.sec-div4 a:hover {
+  text-decoration: underline;
+}
+#sec-div2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#sec-div2 img {
+  height: 250px;
+}
+
+.new {
+  /* border: 2px solid green; */
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.new div {
+  /* border: 2px solid red; */
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 1px gray;
+}
+.sec-div3 {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.sec-div4 {
+  /* border: 2px solid grey; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
+.sec-div4 button {
+  height: 40px;
+  width: 130px;
+  background-color: #006edb;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+.sec-div4 button:hover {
+  cursor: pointer;
+}
+#main-container {
+  /* border: 2px solid red; */
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+}
+.container {
+  /* border: 2px solid green; */
+  width: 500px;
+  flex-direction: row-reverse;
+  line-height: 50px;
+}
+.container img {
+  height: 60px;
+}
+#latest-model {
+  height: 600px;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#sub-latest {
+  position: absolute;
+  top: 45%;
+  left: 7%;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+}
+#sub-latest button {
+  font-size: 17px;
+  font-family: sans-serif;
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+}
+#why-apple,
+#essentials {
+  /* border: 2px solid red; */
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+#why-apple h1,
+#essentials h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+#why-apple a,
+#essentials a,
+.part a {
+  color: #006edb;
+}
+#why-apple a:hover,
+#essentials a:hover,
+.part a:hover {
+  text-decoration: underline;
+  text-decoration-color: #006edb;
+}
+#reason {
+  /* border: 2px solid aqua; */
+  /* height: 600px; */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.option {
+  /* border: 2px solid rebeccapurple; */
+  background-color: white;
+  border-radius: 20px;
+  height: 300px;
+  width: 350px;
+  color: rgb(59, 57, 57);
+
+  padding: 26px;
+}
+.option img {
+  height: 40px;
+}
+.option h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.option p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#accessories {
+  /* border:  2px solid rgb(255, 0, 191); */
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.part {
+  /* border: 2px solid rebeccapurple; */
+  background-color: whitesmoke;
+  text-align: center;
+  line-height: 30px;
+  /* width: 600px; */
+}
+#Significant {
+  background-color: whitesmoke;
+  /* border: 2px solid black; */
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+details {
+  /* border: 2px solid brown; */
+  width: 500px;
+  background-color: whitesmoke;
+}
+#right-img {
+  position: absolute;
+  left: 40%;
+}
+summary {
+  font-size: 30px;
+}
+
+#foot1{
+  /* border: 2px solid red; */
+  /* height: 500px; */
+  display: flex;
+  gap: 40px;
+  padding-left: 100px;
+}
+  #list1,#list2,#list3{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  font-family: sans-serif;
+  
+}
+.list a{
+  font-size: 20px;
+}
+#foot1-text{
+  background-color: whitesmoke;
+  padding-left: 110px;
+}
+#foot-container{
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  gap: 100px;
+  padding: 110px;
+}
+.foot-item{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 200px;
+}
+#id1,#id2,#id3,#id4,#id5{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.last,.last:hover{
+  color: blue;
+  text-decoration: underline;
+}
+#last-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#last-part a:hover{
+text-decoration: underline;
+}
+#India{
+  padding-left: 300px;
+}
