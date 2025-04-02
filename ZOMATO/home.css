@@ -1,0 +1,251 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    height: 425px;
+    background-image: url(./Assets/zomato-backgroundphoto.webp);
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-size:100% 100%; 
+    /* position:relative; */
+}
+#nav-bar{
+    /* border: 2px solid black; */
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav-part{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 750px;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 300px;
+}
+.nav-anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#container1{
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+} 
+#sub-container1{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 62px;
+    width: 794px;
+    display: flex;
+}
+
+#select{
+    width: 230px;
+    height: 60px;
+    
+}
+#input{
+    /* margin-bottom: -100px; */
+    height: 60px;
+    width: 500px;
+    border: none;
+}
+#sub-sub-container2{
+    display: flex;
+}
+#img-div{
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+.img-sub{
+    /* border: 2px solid blue; */
+    height: 220px;
+    width: 350px;
+    border-radius: 10px;
+}
+#below-img{
+    /* border: 2px solid gray; */
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(51, 45, 45);   
+}
+#Collections{
+    /* border: 2px solid black; */
+    /* width: 1200px; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+
+}
+.place{
+    height: 330px;
+    width: 250px;
+    border-radius: 10px;
+}
+#data{
+    /* border: 2px solid green; */
+    margin-left: 120px;
+}
+#container2{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#container3{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+#container4{
+    /* border: 2px solid aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.loacality{
+    border: 1px solid gray;
+    width: 350px;
+    border-radius: 10px;
+}
+#main-container{
+    /* border: 2px double teal; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+aside{
+    border: 2px solid black;
+    height: 550px;
+    background-color:whitesmoke;
+    display: flex;
+    padding-top: 55px;
+    
+}
+aside img{
+    /* border: 2px solid red; */
+    height: 440px;
+    width:410px;
+    margin-left: 200px;
+}
+#aside-div{
+    /* border: 2px solid green; */
+    width: 500px;
+    height:440px;
+    padding-top: 20px;
+
+}
+#subdiv1{
+/* border: 2px solid yellowgreen; */
+display: flex;
+/* justify-content:center; */
+gap: 30px;
+
+}
+#subdiv2 input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+input[type="radio"] {
+    accent-color: red;
+}
+
+#subdiv2 button{
+    height:50px;
+    width: 160px;
+    border-radius: 10px;
+    background-color:red;
+    color: white;
+}
+#subdiv2 button:hover{
+    background-color: rgb(235, 42, 42);
+    cursor: pointer;
+}
+::placeholder{
+    padding-left: 10px;
+}
+#download{
+    /* border: 2px solid aqua; */
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download img{
+    height: 30px;
+    width: 100px;
+
+}
+#imgg{
+    margin-left :30px;
+}
+#img{
+    margin-left:  -70px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.details{
+    /* border: 1px solid gray; */
+    background-color: whitesmoke;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.details:hover{
+    cursor: pointer;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+footer{
+    height: 500px;
+}
+#foot1{
+    /* border: 2px solid rgb(0, 255, 162); */
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sub-foot{
+    /* border: 2px solid blue; */
+    margin-left :550px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,210 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#navbar{
+    /* border: 2px solid white; */
+    height: 80px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div1 img{
+    /* border: 2px solid white; */
+    height: 80px;
+    width: 150px;
+    color: red;
+}
+
+#div1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    padding-right: 106px;
+    
+}
+select{
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+}
+button{
+    /* border: 2px solid purple; */
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 85px;
+    height: 35px;
+    
+}
+main{
+    height: 700px;
+    background-image: url(./images/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_small.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-size:100% 100%; 
+    position:relative;
+    
+}
+section {
+    /* border: 2px solid rgb(17, 14, 226); */
+    color: white;
+    height: 350px;
+    /* width: 600px; */
+    margin-top: 80px;
+    padding-left: 20px;
+    
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+#div3{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#sub-div3{
+    /* border: 2px solid blue; */
+    width: 550px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+    /* gap: 20px; */
+}
+#in1{
+    width: 320px; 
+    border-radius: 10px;  
+    border: 1px solid gray;
+    background-color: transparent;
+    
+}
+#in2{
+    width: 180px;
+    margin-right: 0px;
+    border-radius: 10px;  
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+::placeholder{
+    color:white;
+    font-size: 15px;
+}
+#main-container1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+#main-container2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+.reason-to-join{
+    height: 300px;
+    width: 250px;
+/* background-color:rgb(38, 0, 77); */
+background-color:rgb(13, 0, 26);
+color: white;
+border-radius: 10px;
+padding-left: 20px;
+
+
+    /* text-align: center; */
+}
+
+#main-container3{
+    /* height: 40px;
+    width: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.asked-question{
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 1060px;
+    margin-left: 110px;
+    background-color:rgb(40, 38, 38);
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 25px;
+    color: white;
+}
+.asked-question:hover{
+    background-color: rgb(75, 70, 70);
+}
+#main-container4{
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+ #email{
+    border: 1px solid wheat;
+    height: 50px;
+    width: 600px;
+    margin-left: 300px;
+    background-color: transparent;
+ }
+ #bt:hover{
+cursor: pointer;
+background-color: rgb(232, 40, 40);
+ }
+ ::placeholder{
+    padding-left: 15px;
+ }
+ #bt{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+ }
+ #main-container5{
+    /* border: 2px solid white; */
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* flex-direction: column; */
+ }
+ .last-div ,.last-div a{
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+ }
+ #last-btn{
+    border: 2px solid gray;
+    height: 35px;
+    margin-left: 130px;
+    color: white;
+ }
+#last-btn option{
+    color: black;
+}
+ 
+ article{
+    border: 2px solid red;
+    height: 2200px;
+ }

@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    height: 555px;
+    background-image: url(./assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+    background-repeat: no-repeat;
+    background-position:scroll;
+    background-size: cover;
+}
+nav{
+    /* border: 2px solid white; */
+    background-color: black;
+    width: 1300px;
+
+    position:fixed;
+    height: 90px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+#left-nav{
+    /* border: 2px solid white; */
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#right-nav{
+    /* border: 2px solid white; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#space-logo{
+    width: 150px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#main-container{
+    border: 2px solid blue;
+    height: 4800px;
+}
+#part1{
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+#part1-below{
+    border: 2px solid black;
+    display: flex;
+    gap: 35px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+p{
+    border: 2px solid  green;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+#last-btn{
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    color: white;
+    margin-left: 500px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+}
+footer a{
+    padding-top: 80px;
+}
